@@ -1,0 +1,6 @@
+{{ $requiredTags := parseJSON `["zookeeper-special-tag", "zookeeper", "service-discovery"]` }}
+{{range service "zookeeper|any"}}
+    {{if .Tags | containsAll $requiredTags}}
+        {{.Address}}:{{.Port}}
+    {{end}}
+{{end}}
