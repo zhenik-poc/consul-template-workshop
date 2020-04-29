@@ -5,10 +5,12 @@
 2. Download `consul-template` binary -> `make download`
 3. Run example -> `./run.sh`
 
- 
+`run.sh` query consul according provided template and render results in `out.txt` file.
+
+## Examples
+Folder examples contains 
 ## Available releases
 https://releases.hashicorp.com/consul-template/ 
-
 
 ## References
 * [introducing-consul-template](https://www.hashicorp.com/blog/introducing-consul-template/)
