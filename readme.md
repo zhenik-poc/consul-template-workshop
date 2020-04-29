@@ -1,7 +1,7 @@
 # Consul-template workshop
 
 ## How to run
-1. Create file `.env` and setup proper path to consul and vault server. (Check `.env-example`)
+1. Create file `.env` and setup proper path to consul server. (Check `.env-example`)
 2. Download `consul-template` binary -> `make download`
 3. Run example -> `./run.sh`
 
