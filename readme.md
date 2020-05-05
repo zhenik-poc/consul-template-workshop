@@ -1,9 +1,10 @@
 # Consul-template workshop
 
 ## How to run
-1. Create file `.env` and setup proper path to consul server. (Check `.env-example`)
+1. Create file `.env` and setup proper path to consul server, use http. (Check `.env-example`)
 2. Download `consul-template` binary -> `make download`
-3. Run example -> `./run.sh`
+3. Setup env variables for terminal session -> `source .env`
+4. Run example -> `./run.sh`
 
 `run.sh` query consul according provided template and render results in `out.txt` file.
 
