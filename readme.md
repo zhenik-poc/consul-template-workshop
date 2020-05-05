@@ -1,5 +1,16 @@
 # Consul-template workshop
 
+## Agenda [consul]
+1. clone repo
+2. setup
+3. run examples
+4. nomad job service stanza 
+5. build own examples
+6. additional links
+
+## Agenda [vault]
+todo
+
 ## How to run
 1. Create file `.env` and setup proper path to consul server, use http. (Check `.env-example`)
 2. Download `consul-template` binary -> `make download`
