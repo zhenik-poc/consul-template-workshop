@@ -28,3 +28,5 @@ https://releases.hashicorp.com/consul-template/
 * [introducing-consul-template](https://www.hashicorp.com/blog/introducing-consul-template/)
 * [consul-template github](https://github.com/hashicorp/consul-template)
 * [consul-template learn hashicorp](https://learn.hashicorp.com/consul/developer-configuration/consul-template)
+* [golang template](https://golang.org/pkg/text/template/)
+* [agent template](https://www.vaultproject.io/docs/agent/template)
