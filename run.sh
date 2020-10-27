@@ -1,3 +1,3 @@
 sudo ./consul-template \
-  -consul-addr=${CONSUL_ADDR} \
-  -once -template ./examples/test1.ctpl:out.txt
+  -vault-addr "http://127.0.0.1:8200" \
+  -once -template ./examples/test6.ctpl:out.txt

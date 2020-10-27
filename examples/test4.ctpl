@@ -1,0 +1,3 @@
+"jdbc:postgresql://{{ range service "k39582-blue.hive-metastore-database" }}{{ .Address }}:{{ .Port }}{{ end }}/metastore"
+
+thrift://{{ range service "k39582-blue-hive-metastore-server" }}{{ .Address }}:{{ .Port }}{{ end }}

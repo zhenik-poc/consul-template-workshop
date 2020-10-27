@@ -1,0 +1,6 @@
+{{- $requiredTags := parseJSON `["m77773-blue", "http"]` -}}
+{{range service "minio" -}}
+    {{if .Tags | containsAll $requiredTags -}}
+        {{.Address}}:{{.Port}}
+    {{end -}}
+{{end -}}
